@@ -54,7 +54,7 @@ namespace TypeCasting
             myLabel.Content = myText;
             
              */
-
+             
             //Of je kunt dit in een regel uitvoeren (lastiger)
 
             myLabel.Content = ((ListBoxItem)((ListBox)sender).SelectedItem).Content.ToString();
